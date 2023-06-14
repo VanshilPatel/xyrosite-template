@@ -1,0 +1,9 @@
+body{
+    background: rgb(21,7,22);
+    background: linear-gradient(90deg, rgba(21,7,22,1) 0%, rgba(52,16,52,1) 33%, rgba(91,28,86,1) 61%);
+    font-family: 'Rubik', sans-serif;
+}
+
+*{
+    margin: 0;
+}

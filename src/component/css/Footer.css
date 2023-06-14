@@ -1,0 +1,125 @@
+.footer-maindiv{
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.lft{
+    margin-top: 5%;
+    margin-left: 10%;
+    line-height: 1.6;
+}
+
+.lft-l1{
+    font-size: 20px;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+}
+
+.lft-l2, .lft-l3{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.lft-icon{
+    margin-top: 5%;
+}
+
+.lft a{
+    color: black;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.rht{
+    margin-top: 5.5%;
+    margin-left: 18%;
+    margin-right: 10%;
+}
+
+.rht-l1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    margin-top: 3%;
+}
+
+.rht form p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+form button{
+    width: 133px;
+    height: 50px;
+    border-radius: 26px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(118, 52, 191);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 2%;
+}
+
+form button:hover{
+    background-color: rgb(93, 27, 166);
+}
+
+input{
+    width: 42vw;
+    height: 48px;
+    background-color: rgb(241 , 241 , 241);
+    color: rgb(137, 134, 134);
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 2%;
+    border: 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:700px) {
+    .footer-maindiv{
+        flex-direction: column-reverse;
+    }
+
+    .lft, .rht{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .lft img{
+        width: 29vw;
+    }
+
+    input{
+        padding-left: 5%;
+        width: 95%;
+    }
+
+    .rht-l1{
+        margin-top: 5%;
+    }
+
+    form p{
+        margin-top: 5%;
+    }
+
+    form button {
+        width: 36vw;
+        height: 6.5vh;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .lft a{
+        margin-right: 5%;
+    }
+}
